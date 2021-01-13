@@ -1,0 +1,140 @@
+
+
+body {
+    background-color: rgb(74, 136, 230);
+  }
+  
+  /* .container { */
+      /* display: grid; */
+      /* grid-template-columns: 50px 50px 50px 50px; */
+      /* grid-template-rows: 50px 50px 50px 50px; */
+      /* grid-gap: 3px;  */
+      /* font-family: 'Helvetica Neue', Helvetica, Verdana, sans-serif; */
+    /* } */
+
+.wrapper {
+  display: grid;
+  border: 100px;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 15% 15% 15% 15%;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  background-color: rgb(74, 136, 230);
+  
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: lightgrey;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: lightgrey;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: lightgrey;
+}
+.four {
+  grid-column: 4;
+  grid-row: 1;
+  background-color: lightgrey;
+}
+.five {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: lightgrey;
+}
+.six {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: lightgrey;
+}
+.seven {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: lightgrey;
+}
+.eight {
+  grid-column: 4;
+  grid-row: 2;
+  background-color: lightgrey;
+}
+.nine {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: lightgrey;
+}
+.ten {
+  grid-column: 2;
+  grid-row: 3;
+  background-color: lightgrey;
+}
+.eleven {
+    grid-column: 3;
+    grid-row: 3;
+    background-color: lightgrey;
+}
+.twelve {
+    grid-column: 4;
+    grid-row: 3;
+    background-color: lightgrey;
+}
+.thirteen {
+    grid-column: 1;
+    grid-row: 4;
+    background-color: lightgrey;
+}
+.fourteen {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: lightgrey;
+}
+.fifteen {
+    grid-column: 3;
+    grid-row: 4;
+    background-color: lightgrey;
+}
+.sixteen {
+    grid-column: 4;
+    grid-row: 4;
+    background-color: lightgrey;
+}
+.lightgrey {
+  background-color: lightgrey;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color:blue;
+}
+.plum  {
+  background-color: plum;
+}
+.salmon  {
+  background-color: salmon;
+}
+.yellow  {
+  background-color: yellow;
+}
+.purple  {
+  background-color: purple;
+}
+.green  {
+  background-color: green;
+}
+.orange  {
+  background-color: orange;
+}
+
+.button {
+  background-color: cornflowerblue;
+  margin: 0 auto;
+
+  }
